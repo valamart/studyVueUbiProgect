@@ -2,6 +2,7 @@
     <div>
         <h1>Posts Page</h1>
         <my-input
+        v-focus
         v-model="searchQuery"
         placeholder="Search..."
         />
